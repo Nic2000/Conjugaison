@@ -1,4 +1,4 @@
-/*--Exemple des verbes utilisés comme test pour le programme:
+﻿/*--Exemple des verbes utilisés comme test pour le programme:
 1er groupe: accepter,chanter,danser,ecouter,parler,cacher,acheter,appeler,ajouter,poser,prier,quitter,raconter,regarder,
 rentrer,gagner,assurer,exister,exprimer,arriver
 
@@ -308,7 +308,7 @@ void Fenetre::Devinette(){
 
    //recuperer la terminaison du verbe pour savoir le temps
     longueur_verbe = verbe_phrase.size();
-    //pour les verbes etre, avoir, aller
+    //pour les verbes etre, aller
     for(i = 0; i < 9; i++){
         if (verbe_phrase == etre_present[i]){
             lbl_affichageTemps.set_text("present");
